@@ -6,13 +6,14 @@ My VSLab development environment setup
 `sudo apt-get install git`
 
 1. zsh
-`sudo apt-get install zsh`
 
-`chsh -s /bin/zsh`
+- `sudo apt-get install zsh`
 
-`git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh`
+- `chsh -s /bin/zsh`
 
-`cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc`
+- `git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh`
+
+- `cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc`
 
 2. Anaconda
 
