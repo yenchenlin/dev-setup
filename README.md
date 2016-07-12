@@ -1,11 +1,12 @@
 # dev-setup
 My VSLab development environment setup
 
+## General
 `sudo apt-get install ssh`
 `sudo apt-get install vim`
 `sudo apt-get install git`
 
-1. zsh
+## zsh
 
 - `sudo apt-get install zsh`
 
@@ -15,11 +16,11 @@ My VSLab development environment setup
 
 - `cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc`
 
-2. Anaconda
+## Anaconda
 
-3. Cuda
-``
+## Cuda
 
-4. Torch
 
-5. Tensorflow
+## Torch
+
+## Tensorflow
