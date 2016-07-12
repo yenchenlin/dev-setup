@@ -20,7 +20,14 @@ My VSLab development environment setup
 
 
 ## Cuda
+- Download `.run` installer of Cuda 7.5 from [official site](https://developer.nvidia.com/cuda-toolkit).
+- `sh` the download file.
+- Edit `.bashrc` (`.zshrc` if you use zsh) to include the following lines:
 
+  ```
+  export PATH=/usr/local/cuda-7.5/bin:$PATH
+  export LD_LIBRARY_PATH=/usr/local/cuda-7.5/lib64:$LD_LIBRARY_PATH
+  ```
 
 ## Torch
 
