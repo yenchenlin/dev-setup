@@ -15,6 +15,9 @@ My VSLab development environment setup
 
 ## tmux
 
+- `sudo apt-get install tmux`
+- Install [tmux-config](https://github.com/tony/tmux-config).
+
 
 ## Anaconda
 
