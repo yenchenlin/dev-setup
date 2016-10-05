@@ -36,7 +36,7 @@ My VSLab development environment setup
   cd /usr/local/cuda/samples/1_Utilities/deviceQuery
   sudo make
   ```
-
+- `sudo apt-get install nvidia-cuda-toolkit`
 - Edit `.bashrc` (`.zshrc` if you use zsh) to include the following lines:
 
   ```
