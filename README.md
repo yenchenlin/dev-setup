@@ -24,6 +24,8 @@ My VSLab development environment setup
 
 ## Cuda
 - Download `.run` installer of Cuda 7.5 from [official site](https://developer.nvidia.com/cuda-toolkit).
+- Open Ubuntu's `System Settings` and find `Software & Updates`
+- Find section `Additional Drivers` and select `XXX (proprietary, tested)`
 - `sh` the download file.
 - Edit `.bashrc` (`.zshrc` if you use zsh) to include the following lines:
 
