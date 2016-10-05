@@ -5,6 +5,7 @@ My VSLab development environment setup
 - `sudo apt-get install ssh`
 - `sudo apt-get install vim`
 - `sudo apt-get install git`
+- `sudo apt-get install g++` (**required** to install CUDA)
 
 ## zsh
 
@@ -27,8 +28,15 @@ My VSLab development environment setup
 - Open Ubuntu's `System Settings` and find `Software & Updates`
 - Find section `Additional Drivers` and select `XXX (proprietary, tested)`
 - `sh` the download file.
+**Note**: select **no** when system prompt ask you to install
 - Edit `.bashrc` (`.zshrc` if you use zsh) to include the following lines:
 
+To verify if you've installed CUDA successfully, run following command
+```
+cd /usr/local/cuda/samples/1_Utilities/deviceQuery
+sudo make
+
+```
   ```
   export PATH=/usr/local/cuda-7.5/bin:$PATH
   export LD_LIBRARY_PATH=/usr/local/cuda-7.5/lib64:$LD_LIBRARY_PATH
