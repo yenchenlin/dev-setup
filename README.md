@@ -28,13 +28,14 @@ My VSLab development environment setup
 - Open Ubuntu's `System Settings` and find `Software & Updates`
 - Find section `Additional Drivers` and select `XXX (proprietary, tested)`
 - `sh` the download file.
-**Note**: select **no** when system prompt ask you to install
 
-To verify if you've installed CUDA successfully, run following command
-```
-cd /usr/local/cuda/samples/1_Utilities/deviceQuery
-sudo make
-```
+  **Note**: select **no** when system prompt ask you to install
+
+  To verify if you've installed CUDA successfully, run following command
+  ```
+  cd /usr/local/cuda/samples/1_Utilities/deviceQuery
+  sudo make
+  ```
 
 - Edit `.bashrc` (`.zshrc` if you use zsh) to include the following lines:
 
