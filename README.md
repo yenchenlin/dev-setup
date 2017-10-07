@@ -43,8 +43,8 @@ My VSLab development environment setup
   export LD_LIBRARY_PATH=/usr/local/cuda-7.5/lib64:$LD_LIBRARY_PATH
   ```
 
-## ~/.vimrc
-- copy [this](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) into `~/.vimrc`.
+## vimrc
+- Copy [this](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) into `~/.vimrc`.
 
 ## Torch
 
