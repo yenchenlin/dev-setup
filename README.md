@@ -43,8 +43,8 @@ My VSLab development environment setup
   export LD_LIBRARY_PATH=/usr/local/cuda-7.5/lib64:$LD_LIBRARY_PATH
   ```
 
-## Fisa Dev
-- Install [fisadev](http://fisadev.github.io/fisa-vim-config/).
+## ~/.vimrc
+- copy [this](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) into `~/.vimrc`.
 
 ## Torch
 
