@@ -7,12 +7,9 @@ My VSLab development environment setup
 - `sudo apt-get install git`
 - `sudo apt-get install g++` (**required** to install CUDA)
 
-## zsh
+## bash
 
-- `sudo apt-get install zsh`
-- `chsh -s /bin/zsh`
-- `git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh`
-- `cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc`
+- Install [bash-it](https://github.com/Bash-it/bash-it)
 
 ## tmux
 
