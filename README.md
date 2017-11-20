@@ -1,5 +1,5 @@
 # dev-setup
-My VSLab development environment setup
+My development environment setup
 
 ## General
 - `sudo apt-get install ssh`
@@ -18,7 +18,7 @@ My VSLab development environment setup
 
 
 ## Anaconda
-
+- Install miniconda 3.
 
 ## Cuda
 - Download `.run` installer of Cuda 7.5 from [official site](https://developer.nvidia.com/cuda-toolkit).
@@ -41,8 +41,18 @@ My VSLab development environment setup
   ```
 
 ## vimrc
+#### Style
 - Copy [this](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) into `~/.vimrc`.
+#### Format
+- https://github.com/Chiel92/vim-autoformat
+- Add the following snippet into .vimrc:
+```
+let g:autoformat_verbosemode = 0
+let g:formatters_python = ['yapf']
+let g:formatdef_yapf = "'yapf -l '.a:firstline.'-'.a:lastline"
+let g:autoformat_remove_trailing_spaces = 1
+noremap <C-K> :Autoformat<CR>
+```
 
-## Torch
-
-## Tensorflow
+## Tensorflow 
+`pip install tensorflow-gpu`
