@@ -16,7 +16,6 @@ My development environment setup
 - `sudo apt-get install tmux`
 - Install [tmux-config](https://github.com/tony/tmux-config).
 
-
 ## Anaconda
 - Install miniconda 3.
 
@@ -40,19 +39,12 @@ My development environment setup
   export LD_LIBRARY_PATH=/usr/local/cuda-7.5/lib64:$LD_LIBRARY_PATH
   ```
 
-## vimrc
-#### Style
+## Vim
 - Copy [this](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) into `~/.vimrc`.
-#### Format
-- https://github.com/Chiel92/vim-autoformat
-- Add the following snippet into .vimrc:
-```
-let g:autoformat_verbosemode = 0
-let g:formatters_python = ['yapf']
-let g:formatdef_yapf = "'yapf -l '.a:firstline.'-'.a:lastline"
-let g:autoformat_remove_trailing_spaces = 1
-noremap <C-K> :Autoformat<CR>
-```
+
+## Sublime Text
+- Follow [this](https://fosstack.com/setup-sublime-python/).
+- Change yapf in sublime text to miniconda path.
 
 ## Tensorflow 
 `pip install tensorflow-gpu`
