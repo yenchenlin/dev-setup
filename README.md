@@ -10,6 +10,7 @@ My development environment setup
 ## bash
 
 - Install [bash-it](https://github.com/Bash-it/bash-it)
+- Set the theme to `bobby-python`.
 
 ## tmux
 
