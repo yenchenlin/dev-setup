@@ -46,6 +46,7 @@ My development environment setup
 ## Sublime Text
 - Follow [this](https://fosstack.com/setup-sublime-python/).
 - Change yapf in sublime text to miniconda path.
+- Set up remote sublime editing.
 
 ## Tensorflow 
 `pip install tensorflow-gpu`
