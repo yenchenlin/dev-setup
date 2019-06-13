@@ -7,10 +7,9 @@ My development environment setup
 - `sudo apt-get install git`
 - `sudo apt-get install g++` (**required** to install CUDA)
 
-## bash
+## zsh
 
-- Install [bash-it](https://github.com/Bash-it/bash-it)
-- Set the theme to `bobby-python`.
+- `sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
 ## tmux
 
