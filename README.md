@@ -49,11 +49,18 @@ My development environment setup
 
 # MacOS
 
+## Oh-my-zsh
+- Follow the instruction [here](https://ohmyz.sh/)
+
 ## Homebrew
+- Follow the instruction [here](https://brew.sh/)
+
+## wget
+`brew install wget`
 
 ## tmux
 
-- `sudo apt-get install tmux`
+- `brew install tmux`
 - Install [tmux-config](https://github.com/tony/tmux-config).
 
 ## Visual Studio
