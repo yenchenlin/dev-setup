@@ -1,6 +1,8 @@
 # dev-setup
 My development environment setup
 
+# Linux
+
 ## General
 - `sudo apt-get install ssh`
 - `sudo apt-get install vim`
@@ -43,10 +45,21 @@ My development environment setup
 ## Vim
 - Copy [this](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) into `~/.vimrc`.
 
-## Sublime Text
-- Follow [this](https://fosstack.com/setup-sublime-python/).
-- Change yapf in sublime text to miniconda path.
-- Set up remote sublime editing following [this](https://github.com/randy3k/RemoteSubl).
+## Visual Studio
 
-## Tensorflow 
-`pip install tensorflow-gpu`
+# MacOS
+
+## Homebrew
+
+## tmux
+
+- `sudo apt-get install tmux`
+- Install [tmux-config](https://github.com/tony/tmux-config).
+
+## Visual Studio
+
+## Anaconda
+- Install miniconda 3.
+
+## Vim
+- Copy [this](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) into `~/.vimrc`.
