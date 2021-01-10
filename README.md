@@ -13,6 +13,12 @@ My development environment setup
 
 - Install zsh, follow the reference [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 - `sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+- Add the following to `.zshrc`:
+```
+__git_files () { 
+    _wanted files expl 'local files' _files     
+}
+```
 
 ## tmux
 
