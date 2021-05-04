@@ -29,24 +29,7 @@ __git_files () {
 - Install miniconda 3.
 
 ## Cuda
-- Download `.run` installer of Cuda 7.5 from [official site](https://developer.nvidia.com/cuda-toolkit).
-- Open Ubuntu's `System Settings` and find `Software & Updates`
-- Find section `Additional Drivers` and select `XXX (proprietary, tested)`
-- `sh` the download file.
-
-  **Note**: select **no** when system prompt ask you to install
-
-  To verify if you've installed CUDA successfully, run following command
-  ```
-  cd /usr/local/cuda/samples/1_Utilities/deviceQuery
-  sudo make
-  ```
-- Edit `.bashrc` (`.zshrc` if you use zsh) to include the following lines:
-
-  ```
-  export PATH=/usr/local/cuda-7.5/bin:$PATH
-  export LD_LIBRARY_PATH=/usr/local/cuda-7.5/lib64:$LD_LIBRARY_PATH
-  ```
+- See [this](https://medium.com/@exesse/cuda-10-1-installation-on-ubuntu-18-04-lts-d04f89287130)
 
 ## Vim
 - Copy [this](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) into `~/.vimrc`.
