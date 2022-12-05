@@ -53,7 +53,7 @@ WSL2, Ubuntu 22.04.1
 - MSI Afterburner
 - GPU-Z
 - Windows Power Toys
-    - Remap keys from magic keyboard.
+    - Remap keys of magic keyboard.
 
 ## COLMAP
 
