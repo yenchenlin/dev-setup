@@ -39,7 +39,10 @@ __git_files () {
 
 # Windows
 
-## NVIDIA Drivers
+## NVIDIA
+
+- Drivers
+- CUDA Toolkit
 
 ## Tools
 
