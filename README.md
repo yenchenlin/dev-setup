@@ -8,6 +8,7 @@ My development environment setup
 - `sudo apt-get install vim`
 - `sudo apt-get install git`
 - `sudo apt-get install build-essential` (**required** to install CUDA)
+- Settings -> Displays -> Night Light -> Set the time to be the same
 
 ## zsh
 
