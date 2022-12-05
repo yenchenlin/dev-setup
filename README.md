@@ -37,6 +37,17 @@ __git_files () {
 
 ## Visual Studio
 
+# Windows
+
+## NVIDIA Drivers
+
+## Tools
+
+- VSCode
+- HWInfo
+- MSI Afterburner
+- GPU-Z
+
 # MacOS
 
 ## Oh-my-zsh
