@@ -34,12 +34,6 @@ __git_files () {
 ## Vim
 - Copy [this](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) into `~/.vimrc`.
 
-## Redshift
-- Install:
-`sudo apt-get install redshift-gtk`.
-
-- Set up the config [here](https://github.com/jonls/redshift/issues/445#issuecomment-410494059).
-
 ## Visual Studio
 
 # MacOS
