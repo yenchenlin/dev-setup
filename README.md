@@ -39,6 +39,8 @@ __git_files () {
 
 # Windows
 
+WSL2, Ubuntu 22.04.1
+
 ## NVIDIA
 
 - Drivers
