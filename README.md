@@ -51,6 +51,10 @@ __git_files () {
 - MSI Afterburner
 - GPU-Z
 
+## COLMAP
+
+- Follow COLMAP's [instruction](https://colmap.github.io/install.html#linux) but install Ceres solver using its [own instruction](http://ceres-solver.org/installation.html). 
+
 # MacOS
 
 ## Oh-my-zsh
