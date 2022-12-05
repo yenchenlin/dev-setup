@@ -8,6 +8,7 @@ My development environment setup
 - `sudo apt-get install vim`
 - `sudo apt-get install git`
 - `sudo apt-get install g++` (**required** to install CUDA)
+- `sudo apt-get install build-essential`
 
 ## zsh
 
