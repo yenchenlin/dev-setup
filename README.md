@@ -55,6 +55,11 @@ WSL2, Ubuntu 22.04.1
 - Windows Power Toys
     - Remap keys of magic keyboard.
 
+## Terminal
+
+1. Click on the drop down menu -> Settings -> Open JSON file (left bottom)
+2. Add this line: `"wordDelimiters" : " ()\"':,;<>~!@#$%^&*|+=[]{}~?\u2502",` to select paths in the shell with double clicks. 
+
 ## COLMAP
 
 - Follow COLMAP's [instruction](https://colmap.github.io/install.html#linux) but install Ceres solver using its [own instruction](http://ceres-solver.org/installation.html). 
