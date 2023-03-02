@@ -41,6 +41,23 @@ __git_files () {
 
 WSL2, Ubuntu 22.04.1
 
+## Memory
+Create `.wslconfig` at `/mnt/c/Users/yenchenl` and fill in the following content:
+```
+# Settings apply across all Linux distros running on WSL 2
+[wsl2]
+
+# Limits VM memory to use no more than 64 GB, this can be set as whole numbers using GB or MB
+memory=64GB 
+
+# Sets the VM to use 32 virtual processors
+processors=32
+
+# Sets amount of swap storage space to 32GB, default is 25% of available RAM
+swap=32GB
+```
+Otherwise WSL wouldn't be able to access the full memory.
+
 ## NVIDIA
 
 - Drivers
